@@ -1,32 +1,33 @@
 public class SuperClass {
-    private String Nombre;
-    private String Apellido;
+    private String nombre;
+    private String apellido;
     private String correo;
-    private int Cedula;
-    private String Tipo_Cuenta;
+    private int cedula;
 
-    public SuperClass(String nombre, String apellido, String correo, int cedula, String tipo_Cuenta) {
-        Nombre = nombre;
-        Apellido = apellido;
+    public SuperClass(){
+        super();
+    }
+    public SuperClass(String nombre, String apellido, String correo, int cedula) {
+        this.nombre = nombre;
+        this.apellido = apellido;
         this.correo = correo;
-        Cedula = cedula;
-        Tipo_Cuenta = tipo_Cuenta;
+        this.cedula = cedula;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
     }
 
     public String getApellido() {
-        return Apellido;
+        return apellido;
     }
 
     public void setApellido(String apellido) {
-        Apellido = apellido;
+        this.apellido = apellido;
     }
 
     public String getCorreo() {
@@ -38,20 +39,18 @@ public class SuperClass {
     }
 
     public int getCedula() {
-        return Cedula;
+        return cedula;
     }
 
     public void setCedula(int cedula) {
-        Cedula = cedula;
-    }
-
-    public String getTipo_Cuenta() {
-        return Tipo_Cuenta;
-    }
-
-    public void setTipo_Cuenta(String tipo_Cuenta) {
-        Tipo_Cuenta = tipo_Cuenta;
+        this.cedula = cedula;
     }
 
 
+    public void ahorros(){
+        System.out.println("Este es una cuenta de ahorros");
+    }
+    public void corriente(){
+        System.out.println("Esta es una cuenta corriente");
+    }
 }
