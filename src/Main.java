@@ -1,3 +1,5 @@
+import com.sun.source.tree.WhileLoopTree;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -21,9 +23,32 @@ public class Main {
             System.out.print("Ingrese su correo: ");
             arrayObjetos[i].setCorreo(nombre = sc.next());
         }
+        /*
+        System.out.println("INICIAR SESION ");
+        System.out.println("Ingrese del cliente" );
+        int cliente = sc.nextInt() ;
+        //
+        while ()
+        int p = 0;
+        System.out.println("MENU");
+
+        System.out.println("CHEQUE ");
+        System.out.println("AHORRO ");
+
+        switch(p){
+            case 1:
+
+                break;
+            case 2:
+
+                break;
+
+            default:
+
+        }
 
 
-
+*/
 
 
     }
