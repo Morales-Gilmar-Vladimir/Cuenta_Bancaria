@@ -1,5 +1,5 @@
 # Cuenta_Bancaria
-Integrantes del grupo de Cuenta Bncaria:
+Integrantes del grupo de Cuenta Bancaria:
 
 1. Barrera Melanie
 2. Cataña Dennis 
