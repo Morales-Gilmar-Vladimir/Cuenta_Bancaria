@@ -1,14 +1,21 @@
 
-public class Ahorros {
+public class Ahorros extends SuperClass {
     private double saldo;
     private boolean debito;
     private boolean deposito;
 
-    public Ahorros(double saldo) {
+
+public Ahorros(){
+    super();
+}
+    public Ahorros(String nombre, String apellido, String correo, int cedula, double saldo, boolean debito, boolean deposito) {
+        super(nombre, apellido, correo, cedula);
         this.saldo = saldo;
-        this.debito = false;
-        this.deposito = false;
+        this.debito = debito;
+        this.deposito = deposito;
     }
+
+
 
 
 
