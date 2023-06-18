@@ -30,6 +30,7 @@ public class Main {
         }
 
         System.out.println("\n*** INICIAR SESION ***");
+        System.out.println("\nClave: 2023");
         System.out.println("\nIntentos: " + conti);
         for(int i = 0; i < 5; i++){
             System.out.print("\nIngrese la clave: ");
