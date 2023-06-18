@@ -46,11 +46,4 @@ public class SuperClass {
         this.cedula = cedula;
     }
 
-
-    public void ahorros(){
-        System.out.println("Este es una cuenta de ahorros");
-    }
-    public void corriente(){
-        System.out.println("Esta es una cuenta corriente");
-    }
 }

@@ -5,7 +5,9 @@ public class Cheques extends SuperClass {
     private int claveC;
     private double retiro;
 
-
+    public Cheques(){
+        super();
+    }
     public Cheques(String titularC, double saldo, int claveC, double retiro) {
         this.titularC = titularC;
         this.saldo = saldo;
@@ -60,5 +62,9 @@ public class Cheques extends SuperClass {
         } else {
             System.out.println("Saldo insuficiente");
         }
+    }
+
+    public void corriente(){
+        System.out.println("Esta es una cuenta corriente");
     }
 }

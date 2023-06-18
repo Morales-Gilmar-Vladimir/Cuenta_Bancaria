@@ -4,6 +4,9 @@ public class Ahorros extends SuperClass {
     private boolean debito;
     private boolean deposito;
 
+    public Ahorros(){
+        super();
+    }
     public Ahorros(double saldo, boolean debito, boolean deposito) {
         this.saldo = saldo;
         this.debito = debito;
@@ -39,6 +42,10 @@ public class Ahorros extends SuperClass {
 
     public boolean getDeposito() {
         return deposito;
+    }
+
+    public void ahorros(){
+        System.out.println("Este es una cuenta de ahorros");
     }
 }
 
